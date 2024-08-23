@@ -7,6 +7,18 @@ This is the server for the phonesensory app developed for the 6G Soft project. T
 
 NOTE: To be able to send the prompt to ollama, you need to have it installed locally on your machine.
 
+## How to run the app
+
+### Step 1: Install Docker
+
+You need Docker for running the phone-sensor-server and ollama in containers. If you don't have Docker installed on your computer already you can install it from here: https://docs.docker.com/engine/install/.
+
+### Step 2: Clone the phone-sensor-server project
+
+Clone the phone-sensor-server project from this github page onto you machine.
+
+### Step 3: coming soon...
+
 ## Calling ollama
 
 ```
