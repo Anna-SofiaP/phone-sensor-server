@@ -1,7 +1,7 @@
 # Phone sensor server
 
 This is the server for the phonesensory app developed for the 6G Soft project. The main function of the server is:
-1. To receive a prompt sent by the phonensensor app as a http request
+1. To receive a prompt sent by the phonensensor app as a http request.
 2. Send the prompt to ollama for processing and response generation.
 3. Receive the response from ollama and print both the prompt and the response.
 
@@ -10,15 +10,17 @@ This is the server for the phonesensory app developed for the 6G Soft project. T
 
 ### Step 1: Install Docker and Visual Studio Code
 
-You need Docker for running the phone-sensor-server and ollama in containers. If you don't have Docker installed on your computer already you can install it from here: https://docs.docker.com/engine/install/
+You need Docker for running the phone-sensor-server and ollama in containers. If you don't have Docker installed on your computer already you can install it from here: https://docs.docker.com/engine/install/.
 
-VS Code can be installed frome here: https://code.visualstudio.com/download
+VS Code can be installed frome here: https://code.visualstudio.com/download.
+
 
 ### Step 2: Clone the phone-sensor-server project and install extensions in VS Code
 
 Clone the phone-sensor-server project from this github page onto you machine. 
 
 After that open VS Code and install the Dev Containers extension.
+
 
 ### Step 3: Open the phone-sensor-server folder in a dev container
 
@@ -28,14 +30,17 @@ Open the phone-sensor-server folder in the workspace in VS Code. Then open the f
 ```
 in the command palette.
 
+
 ### Step 4: Run the server application
 
 Open a terminal in VS Code and run the server by running this command in the terminal: 
 ```
 fastapi dev main.py
 ```
+.
 
 If everything went well, the application is now available in the browser! In browser a page is opened in http://127.0.0.1:8000/  which just shows the contents of the README file. But you can view API documentation and test posting prompts to the server in http://127.0.0.1:8000/docs.
+
 
 ### Step 5: Run ollama in a container
 
